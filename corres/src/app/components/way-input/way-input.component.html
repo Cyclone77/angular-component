@@ -1,0 +1,10 @@
+<span>@Input() 接收的值：{{ title }}</span>
+
+
+<p>{{ descript }}</p>
+<button (click)="setDescript()">设置默认值：200</button>
+<ul>
+    <li *ngFor="let item of dataChange_List">
+        变化数值为:{{ item }}
+    </li>
+</ul>

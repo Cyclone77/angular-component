@@ -1,1 +1,6 @@
 <h1>组件之间的通信</h1>
+
+<h2 appMyHighlight='yellow'>1. 通过@Input()输入性绑定</h2>
+<way-input [title]="title" [(descript)]="data.descript"></way-input>
+<input type="text" [(ngModel)]="title">
+<textarea name="" cols="30" rows="10" [(ngModel)]="data.descript"></textarea>
